@@ -1,1 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YadiStudio | Marketing & Diseño Estratégico</title>
+  <meta name="description" content="Ayudo a marcas personales y negocios a crecer con diseño, contenido y marketing digital. Conoce mis servicios.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fff8f9;
+      color: #2b2b2b;
+    }
+    .navbar {
+      position: sticky;
+      top: 0;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      z-index: 999;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #2b2b2b;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      max-width: 768px;
+      margin: auto;
+    }
+    .hero .halo {
+      display: inline-block;
+      padding: 6px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,64,129,0.4) 0%, transparent 70%);
+    }
+    .hero img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #ff4081;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #ff4081;
+      margin: 1rem 0 0.5rem;
+    }
+    .slogan {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+    .social a {
+      margin: 0 10px;
+      font-size: 1.4rem;
+      color: #2b2b2b;
+      transition: color 0.3s;
+    }
+    .social a:hover {
+      color: #ff4081;
+    }
+    .intro {
+      font-size: 1rem;
+      margin: 1.5rem auto;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+    .cta {
+      display: inline-block;
+      background: #ff4081;
+      color: white;
+      padding: 0.9rem 1.8rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 1rem;
+      box-shadow: 0 4px 12px rgba(255,64,129,0.3);
+    }
+    .cta:hover {
+      background: #e73370;
+      transform: scale(1.03);
+    }
+    .impact {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-weight: 600;
+      color: #444;
+    }
+    .impact span {
+      margin: 0 0.8rem;
+    }
+    section {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem 1.5rem;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #ff4081;
+      margin-bottom: 1.5rem;
+    }
+    .services, .testimonios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      color: #2b2b2b;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      color: #666;
+      font-size: 0.95rem;
+    }
+    .portafolio img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      padding: 2rem 1rem;
+    }
+    footer nav a {
+      color: #ff4081;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#portafolio">Portafolio</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#blog">Blog</a>
+  </div>
+
+  <section class="hero" id="inicio">
+    <div class="halo">
+      <img src="img/profile.jpg" alt="Foto de Yadira" />
+    </div>
+    <h1>YadiStudio</h1>
+    <p class="slogan">Transformamos tu presencia digital en resultados reales.</p>
+
+    <div class="social">
+      <a href="https://www.facebook.com/Yadi.paulina" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/yady.408/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/yadira-tene-80927b18b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <p class="intro">
+      Mi nombre es Yadira, y llevo más de 5 años ayudando a marcas personales y pequeñas empresas a conectar con su audiencia a través de diseño estratégico, contenido auténtico y campañas que realmente generan resultados.
+    </p>
+
+    <a href="#servicios" class="cta">🚀 Transforma tu marca ahora</a>
+    <p style="margin-top: 0.8rem; font-size: 0.9rem; color: #777;">+20 marcas ya confiaron en mí. ¿Te sumas?</p>
+  </section>
+
+  <div class="impact">
+    <span>⏳ 5 años de experiencia</span>·<span>📈 +50 proyectos</span>·<span>💡 Creatividad y estrategia</span>
+  </div>
+
+  <section id="servicios">
+    <h2 class="section-title">Servicios</h2>
+    <div class="services">
+      <div class="card">
+        <h3>🎨 Branding</h3>
+        <p>Diseño de identidad visual para marcas con alma.</p>
+      </div>
+      <div class="card">
+        <h3>📱 Social Media</h3>
+        <p>Estrategia de redes sociales enfocada en conexión y conversión.</p>
+      </div>
+      <div class="card">
+        <h3>✍️ Campañas de Contenido</h3>
+        <p>Copywriting y visuales impactantes para campañas digitales.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolio">
+    <h2 class="section-title">Portafolio</h2>
+    <div class="portafolio">
+      <img src="img/mockup1.jpg" alt="Ejemplo de campaña IG" />
+      <img src="img/mockup2.jpg" alt="Diseño de logo" />
+    </div>
+  </section>
+
+  <footer>
+    <p>© Yadira Tene 2025 — Diseño estratégico con alma ecuatoriana 🇪🇨</p>
+    <nav>
+      <a href="#">Sobre mí</a> · <a href="#">Portafolio</a> · <a href="#">Contacto</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
 
